@@ -22,7 +22,7 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 class Config(object):
     LOGGER = True
 
-    TG_BOT_TOKEN = "5311406598:AAEub25F02-E2fXpzkfSnq4x9Ki_cPs6cBA"
+    TG_BOT_TOKEN = "5311406598:AAHAHyNvEMBYr-meScihJ7v3ScCa_fnIZIw"
 
     OWNER_ID = int("5007505106")
 
