@@ -1,0 +1,43 @@
+
+{
+  "name": "Stock Market Bot",
+  "logo": "https://telegra.ph/file/28a4b1d6bc4fdc263b7bc.jpg",
+  "description": "Stock Market Bot!",
+  "keywords": [
+    "heroku",
+    "best",
+    "account",
+    "manager",
+    "3"
+  ],
+  "repository": "https://github.com/Herokuojepthhon/Heroku",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable env variables",
+      "value": "ANYTHING"
+    },
+    "TG_BOT_TOKEN": {
+      "description": "Your bot token, as a string.",
+      "value": "5326314788:AAGyf49DiE3oD7LmxMJvJTTy0dH2Mih86yY"
+    },
+    "API_ID": {
+        "description": "Your APP ID from my.telegram.org or @UseTGXBot",
+        "value": "6877733"
+    },
+    "API_HASH": {
+        "description": "Your API Hash from my.telegram.org or @UseTGXBot",
+        "value": "0d0d6f66a34f26af1693cd16169dea04"
+    }
+  },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
